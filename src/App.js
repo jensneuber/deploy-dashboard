@@ -4,10 +4,6 @@ import { uniq, chunk, intersection } from 'lodash';
 import { useLocalStorage } from '@rehooks/local-storage';
 
 function App() {
-  // const [username, setUsername] = useState('jensneuber');
-  // const [token, setToken] = useState(
-  //   'b179314a2b0d883bda5efaafa9623dcd9a44d11a'
-  // );
   const [branches, setBranches] = useState(['master', 'develop']);
   const [branch, setBranch] = useLocalStorage('branch');
   const [station, setStation] = useState('wdr5');
