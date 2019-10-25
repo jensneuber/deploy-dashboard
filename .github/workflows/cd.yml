@@ -2,7 +2,7 @@ name: GitHub Actions Build and Deploy Demo
 on:
   push:
     branches:
-      - master
+      - page-source
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -14,6 +14,6 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@master
       env:
         ACCESS_TOKEN: ${{ secrets.DEPLOY_DASHBOARD_ACCESS_TOKEN }}
-        BRANCH: gh-pages
+        BRANCH: master
         FOLDER: build
         BUILD_SCRIPT: yarn && yarn build
