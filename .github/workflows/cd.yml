@@ -15,5 +15,6 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.DEPLOY_DASHBOARD_ACCESS_TOKEN }}
         BRANCH: master
+        BASE_BRANCH: page-source
         FOLDER: build
         BUILD_SCRIPT: yarn && yarn build
