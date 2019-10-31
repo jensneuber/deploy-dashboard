@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/deploy-dashboard/static/css/main.289c9bae.chunk.css",
+    "main.js": "/deploy-dashboard/static/js/main.2ce6fd2a.chunk.js",
+    "main.js.map": "/deploy-dashboard/static/js/main.2ce6fd2a.chunk.js.map",
+    "runtime-main.js": "/deploy-dashboard/static/js/runtime-main.77575ff0.js",
+    "runtime-main.js.map": "/deploy-dashboard/static/js/runtime-main.77575ff0.js.map",
+    "static/css/2.56d352a0.chunk.css": "/deploy-dashboard/static/css/2.56d352a0.chunk.css",
+    "static/js/2.5f000299.chunk.js": "/deploy-dashboard/static/js/2.5f000299.chunk.js",
+    "static/js/2.5f000299.chunk.js.map": "/deploy-dashboard/static/js/2.5f000299.chunk.js.map",
+    "index.html": "/deploy-dashboard/index.html",
+    "precache-manifest.ec7a79d1a6a1c9693ee1f57a3a3b9ffe.js": "/deploy-dashboard/precache-manifest.ec7a79d1a6a1c9693ee1f57a3a3b9ffe.js",
+    "service-worker.js": "/deploy-dashboard/service-worker.js",
+    "static/css/2.56d352a0.chunk.css.map": "/deploy-dashboard/static/css/2.56d352a0.chunk.css.map",
+    "static/css/main.289c9bae.chunk.css.map": "/deploy-dashboard/static/css/main.289c9bae.chunk.css.map",
+    "static/media/semantic.min.css": "/deploy-dashboard/static/media/outline-icons.ef60a4f6.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77575ff0.js",
+    "static/css/2.56d352a0.chunk.css",
+    "static/js/2.5f000299.chunk.js",
+    "static/css/main.289c9bae.chunk.css",
+    "static/js/main.2ce6fd2a.chunk.js"
+  ]
+}
