@@ -85,9 +85,19 @@ const App: React.FC = () => {
                 <Button primary onClick={ () => {
                   requestDeployment()
                 } }>Send</Button>
+                { response && (
+                  <Segment textAlign='left'>
+                    Go to <a
+                    href={ "https://github.com/WestdeutscherRundfunkKoeln/react-native-wdr-boilerplate/actions" }>
+                    https://github.com/WestdeutscherRundfunkKoeln/react-native-wdr-boilerplate/actions
+                  </a> to see your action running!
+                  </Segment>
+                ) }
               </Segment>
+
             </Grid.Column>
           </Grid.Row>
+
           { error && (
             <Grid.Row columns={ 1 }>
               <Grid.Column>
